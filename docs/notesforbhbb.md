@@ -32,6 +32,7 @@
 ![Alt text](image.png)
 
 - 输入`git pull origin master`，Git bash不支持复制黏贴，所以就还是手动输入叭。
+- 完成后要注意，在mkdocs这个文件夹里面你会发现一个叫做`site`的文件夹，把它删掉。
 
 ### 2. 创建markdown文件
 
@@ -46,9 +47,9 @@
 
 ### 4. git上传
 
-- 在第一步的git bash中输入`git add .`
-- 输入`git commit -m "xx"`xx为你的上传理由
-- 输入`git push origin master`
+- 在第一步的git bash中输入`git add .`(这一步如果没有报warning或者任何内容就是运行成功了)
+- 输入`git commit -m "xx"`xx为你的上传理由(这一步只要出现多少files changed或者是create mode啥啥啥就是运行对了，没报error就继续)
+- 输入`git push origin master`(如果最后一行有这样的字眼` master -> master`就是对了继续就好)
 
 ### 5. 网站update
 
