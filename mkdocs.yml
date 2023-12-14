@@ -95,10 +95,11 @@ markdown_extensions:
 plugins:
   - search
 
-nav:
+nav: #导航
   - HOME: index.md
   - BLOG: 
     - 12/14: 12/14.md
+    - 12/15: 12/15.md
   - Keypoints: Origin.md
   - Notes: notesforbhbb.md
 
